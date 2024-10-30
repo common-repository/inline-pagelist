@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alkivia Pagelist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-19 01:07+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jordi Canals <alkivia@jcanals.net>\n"
+"Language-Team: Jordi Canals| http://alkivia.org <devel@jcanals.cat>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../inline-pagelist.php:54
+#: ../framework/plugins.php:484
+#: ../framework/plugins.php:526
+msgid "Warning:"
+msgstr "Atención:"
+
+#: ../inline-pagelist.php:55
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr "El plugin activo %s no es compatible con tu vesión de PHP."
+
+#: ../inline-pagelist.php:57
+#, php-format
+msgid "%s is required for this plugin."
+msgstr "Se requiere %s para utilizar este plugin."
+
+#: ../pagelist.php:147
+msgid "Related Posts"
+msgstr "Entradas Relacionadas"
+
+#: ../framework/plugins.php:485
+#, php-format
+msgid "The active plugin %s is not compatible with your WordPress version."
+msgstr "El plugin activo %s no es compatible con tu versión de WordPress."
+
+#: ../framework/plugins.php:487
+#, php-format
+msgid "WordPress %s is required to run this plugin."
+msgstr "Se requiere WordPress %s para ejecutar este plugin."
+
+#: ../framework/plugins.php:527
+msgid "Standard sidebar functions are not present."
+msgstr "Las funciones de la barra lateral estándar no se encuentran presentes."
+
+#: ../framework/plugins.php:528
+#, php-format
+msgid "It is required to use the standard sidebar to run %s"
+msgstr "Se require el uso de la barra lateral estándar para ejecutar %s"
+

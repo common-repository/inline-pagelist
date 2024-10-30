@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+/**
+ * Alkivia PageList Plugin.
+ * Use this Style Sheet to customize the plugin. 
+ * You can delete the file, and write your custom styles on the theme style.css file.
+ * Also the pagelist_style_url filter can be used to override the default style.css url.
+ *
+ * @version		$Rev: 196925 $
+ * @author		Jordi Canals
+ * @copyright   Copyright (C) 2008, 2009, 2010 Jordi Canals
+ * @license		GNU General Public License version 2
+ * @link		http://alkivia.org
+ * @package		Alkivia
+ * @subpackage	Pagelist
+ *
+
+	Copyright 2008, 2009, 2010 Jordi Canals <devel@jcanals.cat>
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	version 2 as published by the Free Software Foundation.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* ------------------------------------------ INLINE-PAGELIST PLUGIN */
+
+#inline_pagelist {
+	width: 200px;
+	margin: 5px 10px 5px 0px;
+	padding: 10px;
+	background: #ffffc0;
+	border: 1px solid #ffde01;
+	float: left;
+	}
+
+#inline_pagelist p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+	padding: 0;
+	border-bottom: 1px dotted #c00000;
+	}
+
+#inline_pagelist ul {
+	text-indent: 0;
+	list-style-position: inside;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+	overflow: visible;
+	}
+
+#inline_pagelist ul li {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: circle;
+	}
+
+#inline_pagelist ul li.current_page_item {
+	font-weight: bold;
+	list-style-type: square;
+	}
+
+/* EOF */
